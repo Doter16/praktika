@@ -4,14 +4,3 @@ on:
     branches: [ main ]
   pull_request:
     branches: [ main, develop ]
-
-jobs:
-  greeting:
-    name: Print greeting
-    runs-on: ubuntu-latest
-    steps:
-      - name: Checkout code
-        uses: actions/checkout@v3
-      
-      - name: Hello CI/CD
-        run: echo "Hello CI/CD!"
