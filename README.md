@@ -1,1 +1,1 @@
-есть
+Initial project structure
